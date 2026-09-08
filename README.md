@@ -44,35 +44,18 @@ GitHub Actions tests and deploys changes
 CloudWatch monitors everything
 ```
 
-## Getting Started
+## Running it
 
-### Prerequisites
-- .NET 8 or later
-- Node.js 18 or later
-- PostgreSQL 13 or later
-- Docker (for containerized deployment)
-
-### Development
+You'll need .NET 8, Node.js 18, PostgreSQL 13, and Docker.
 
 ```bash
-# Clone the repository
 git clone https://github.com/your-org/zinnia.git
 cd zinnia
-
-# Restore dependencies
 dotnet restore
-
-# Set up the database
 dotnet ef database update
-
-# Run the development server
 dotnet run
 ```
 
-## Contributing
-
-We welcome contributions! Please ensure all tests pass and the code follows our style guidelines before submitting a pull request.
-
 ## License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+MIT
