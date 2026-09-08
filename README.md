@@ -13,6 +13,15 @@ Zinnia is like Jira mixed with ServiceNow—a unified platform where teams can:
 - **Stay synchronized** with live updates across all connected devices
 - **Scale confidently** on cloud infrastructure with automated deployments
 
+## Use Cases
+
+Zinnia is built for operations teams managing physical work and equipment:
+- **Construction** — Coordinate projects, assign crews, and track work completion
+- **Vehicle & Equipment Tracking** — Maintain fleet visibility and assignment history
+- **Asset Management** — Catalog equipment, track location changes, and monitor status
+- **Maintenance Operations** — Schedule maintenance work, track history, and manage downtime
+- **Inventory & Shipment Tracking** — Monitor materials through workflows from receipt to deployment
+
 ## Technology Stack
 
 **Backend & API**
