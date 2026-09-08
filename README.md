@@ -1,17 +1,12 @@
 # Zinnia
 
-An enterprise operations management platform for teams to organize work, people, and equipment in one place.
+A work order and asset management system for operations teams.
 
-> Named after the [fourth track](https://www.youtube.com/watch?v=IWqJMne8xbU) on Clairo's 2021 album *Sling*
+Named after the [fourth track](https://www.youtube.com/watch?v=IWqJMne8xbU) on Clairo's 2021 album *Sling*.
 
-## Overview
+## What it does
 
-Zinnia is like Jira mixed with ServiceNow—a unified platform where teams can:
-- **Create and manage work orders** with rich details and custom workflows
-- **Track assets** across your organization with real-time visibility
-- **Assign tasks** to team members and track progress in real-time
-- **Stay synchronized** with live updates across all connected devices
-- **Scale confidently** on cloud infrastructure with automated deployments
+Zinnia lets teams create and track work orders, manage assets, and see updates in real-time. You can create work orders, assign them to people, track assets across your organization, and watch everything update live without refreshing the page.
 
 ## Use Cases
 
