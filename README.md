@@ -8,14 +8,9 @@ Named after the [fourth track](https://www.youtube.com/watch?v=IWqJMne8xbU) on C
 
 Zinnia lets teams create and track work orders, manage assets, and see updates in real-time. You can create work orders, assign them to people, track assets across your organization, and watch everything update live without refreshing the page.
 
-## Use Cases
+## Built for
 
-Zinnia is built for operations teams managing physical work and equipment:
-- **Construction** — Coordinate projects, assign crews, and track work completion
-- **Vehicle & Equipment Tracking** — Maintain fleet visibility and assignment history
-- **Asset Management** — Catalog equipment, track location changes, and monitor status
-- **Maintenance Operations** — Schedule maintenance work, track history, and manage downtime
-- **Inventory & Shipment Tracking** — Monitor materials through workflows from receipt to deployment
+Construction crews coordinating projects and tracking work. Fleet operations managing vehicles and equipment. Asset teams cataloging inventory and tracking location changes. Maintenance teams scheduling work and logging history. Anyone managing physical operations and the people doing the work.
 
 ## Technology Stack
 
