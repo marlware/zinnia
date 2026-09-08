@@ -36,13 +36,12 @@ ASP.NET Core API (C#)
     ▼
 PostgreSQL Database
 
-─────────────────────────────────────────
-SignalR  → Live updates across all screens
-Docker   → Consistent container runtime
-AWS ECS  → Orchestrated cloud deployment
-Terraform → Infrastructure provisioning
-GitHub Actions → Automated testing & deployment
-CloudWatch → Production monitoring
+SignalR keeps screens updated in real-time
+Docker packages it consistently
+AWS ECS runs it in the cloud
+Terraform provisions the infrastructure
+GitHub Actions tests and deploys changes
+CloudWatch monitors everything
 ```
 
 ## Getting Started
