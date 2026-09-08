@@ -12,27 +12,15 @@ Zinnia lets teams create and track work orders, manage assets, and see updates i
 
 Construction crews coordinating projects and tracking work. Fleet operations managing vehicles and equipment. Asset teams cataloging inventory and tracking location changes. Maintenance teams scheduling work and logging history. Anyone managing physical operations and the people doing the work.
 
-## Technology Stack
+## Tech stack
 
-**Backend & API**
-- C# for business logic
-- ASP.NET Core for RESTful APIs
-- Entity Framework Core for data access
-- PostgreSQL for persistent storage
+Backend: C#, ASP.NET Core, Entity Framework Core, PostgreSQL
 
-**Frontend**
-- React for dynamic user interfaces
-- TypeScript for type-safe development
+Frontend: React, TypeScript
 
-**Real-time Communication**
-- SignalR for live updates without page refreshes
+Real-time: SignalR
 
-**Infrastructure & Deployment**
-- Docker for containerization
-- AWS ECS for cloud orchestration
-- Terraform for infrastructure-as-code
-- GitHub Actions for CI/CD pipelines
-- CloudWatch for monitoring and observability
+Infrastructure: Docker, AWS ECS, Terraform, GitHub Actions, CloudWatch
 
 ## Architecture
 
