@@ -4,6 +4,8 @@ A work order and asset management system for operations teams.
 
 Named after the [fourth track](https://www.youtube.com/watch?v=IWqJMne8xbU) on Clairo's 2021 album *Sling*.
 
+<img src="/clairo.gif" alt="Clairo GIF" width="300">
+
 ## What it does
 
 Zinnia lets teams create and track work orders, manage assets, and see updates in real-time. You can create work orders, assign them to people, track assets across your organization, and watch everything update live without refreshing the page.
