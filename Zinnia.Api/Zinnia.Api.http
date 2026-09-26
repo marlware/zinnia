@@ -1,6 +1,6 @@
 @Zinnia.Api_HostAddress = http://localhost:5067
 
-GET {{Zinnia.Api_HostAddress}}/weatherforecast/
+GET {{Zinnia.Api_HostAddress}}/health
 Accept: application/json
 
 ###
