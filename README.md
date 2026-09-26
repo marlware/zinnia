@@ -51,12 +51,12 @@ CloudWatch monitors everything
 You'll need .NET 10, Node.js 18, PostgreSQL 13, and Docker.
 
 ```bash
-git clone https://github.com/your-org/zinnia.git
+git clone https://github.com/marlware/zinnia.git
 cd zinnia
-dotnet restore
-dotnet ef database update
-dotnet run
+dotnet run --project Zinnia.Api
 ```
+
+The API listens on http://localhost:5067, and `GET /health` should return `{"status":"healthy"}`.
 
 ## License
 
