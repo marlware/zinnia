@@ -48,7 +48,7 @@ CloudWatch monitors everything
 
 ## Running it
 
-You'll need .NET 8, Node.js 18, PostgreSQL 13, and Docker.
+You'll need .NET 10, Node.js 18, PostgreSQL 13, and Docker.
 
 ```bash
 git clone https://github.com/your-org/zinnia.git
