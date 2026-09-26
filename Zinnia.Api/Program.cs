@@ -25,7 +25,7 @@ app.UseCors("AllowFrontend");
 
 app.MapGet("/health", () => Results.Ok(new { status = "healthy" }))
     .WithName("Health")
-    .WithOpenApi();
+    .WithSummary("Health check");
 
 app.Run();
 
