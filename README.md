@@ -71,18 +71,26 @@ SignalR keeps screens updated in real-time
 
 ## Why these technologies
 
-Each tool was picked for a reason. The first two are in use today, and the rest are planned.
+- **C# and ASP.NET Core** build fast, solid web APIs
+- **Entity Framework Core** lets code work with database tables as objects (installed, not used yet)
+- **PostgreSQL** is a reliable database for work orders and assets (planned)
+- **React and TypeScript** will build the screens (planned)
+- **SignalR** will push live updates to every screen (planned)
+- **Docker** will package the app (planned)
+- **AWS ECS** will run it in the cloud (planned)
+- **Terraform** will set up the cloud from code (planned)
+- **GitHub Actions** will test and deploy changes (planned)
+- **CloudWatch** will watch for problems (planned)
 
-- **C# and ASP.NET Core** give you a fast, mature way to build web APIs, with API docs and CORS built in
-- **Entity Framework Core** lets the code work with database tables as regular objects, so there's less hand-written SQL
-- **PostgreSQL** is a reliable database for records like work orders and assets (planned)
-- **React and TypeScript** will make the screens, and TypeScript will catch mistakes early (planned)
-- **SignalR** will push updates to every screen, so nobody needs to refresh (planned)
-- **Docker** will package the app so it runs the same everywhere (planned)
-- **AWS ECS** will run the containers in the cloud (planned)
-- **Terraform** will set up the cloud pieces from code, so they're repeatable (planned)
-- **GitHub Actions** will test and deploy every change automatically (planned)
-- **CloudWatch** will watch the running app for problems (planned)
+Here's how the pieces connect. Dotted lines are planned.
+
+```mermaid
+flowchart LR
+    Client["React + TypeScript"] -.-> API["ASP.NET Core API: C#"]
+    API -.-> DB[("PostgreSQL via EF Core")]
+    API -.->|SignalR live updates| Client
+    Docker["Docker + AWS ECS"] -.-> API
+```
 
 ## Running it
 
