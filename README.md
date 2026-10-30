@@ -69,6 +69,21 @@ SignalR keeps screens updated in real-time
 - **Installed, not used yet:** Entity Framework Core and PostgreSQL (Npgsql)
 - **Planned:** React, TypeScript, SignalR, Docker, AWS ECS, Terraform, GitHub Actions, CloudWatch
 
+## Why these technologies
+
+Each tool was picked for a reason. The first two are in use today, and the rest are planned.
+
+- **C# and ASP.NET Core** give you a fast, mature way to build web APIs, with API docs and CORS built in
+- **Entity Framework Core** lets the code work with database tables as regular objects, so there's less hand-written SQL
+- **PostgreSQL** is a reliable database for records like work orders and assets (planned)
+- **React and TypeScript** will make the screens, and TypeScript will catch mistakes early (planned)
+- **SignalR** will push updates to every screen, so nobody needs to refresh (planned)
+- **Docker** will package the app so it runs the same everywhere (planned)
+- **AWS ECS** will run the containers in the cloud (planned)
+- **Terraform** will set up the cloud pieces from code, so they're repeatable (planned)
+- **GitHub Actions** will test and deploy every change automatically (planned)
+- **CloudWatch** will watch the running app for problems (planned)
+
 ## Running it
 
 You'll need the .NET 10 SDK. Then do this.
