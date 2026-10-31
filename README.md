@@ -82,7 +82,7 @@ SignalR keeps screens updated in real-time
 - **GitHub Actions** will test and deploy changes (planned)
 - **CloudWatch** will watch for problems (planned)
 
-Here's how the pieces connect. Dotted lines are planned.
+Dotted lines are planned.
 
 ```mermaid
 flowchart LR
